@@ -47,7 +47,7 @@ return (
             <img
               src={item.src}
               alt={item.legenda}
-              className="carousel-img"
+              className=""
               style={{
                 width: "100%",
                 height: "400px",

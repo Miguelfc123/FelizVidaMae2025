@@ -6,8 +6,8 @@ import "./HeartBackground.css";
 const ContagemTempo = () => {
   const dataInicio = new Date("2007-10-25T00:00:00");
   const [tempo, setTempo] = useState("");
-  const [spotifySrc, setSpotifySrc] = useState(
-    "https://open.spotify.com/embed/track/4s76r7AbquJcTccqJiqdVu?utm_source=generator"
+  const [spotifySrc] = useState(
+    "https://open.spotify.com/embed/track/1FN5MIbMWhM0rRe8Y8RyX1?utm_source=generator"
   );
 
   const imagens = [
@@ -59,18 +59,6 @@ const ContagemTempo = () => {
     return () => clearInterval(chuva);
   }, []);
 
-  const tocarDoInicio = () => {
-    setSpotifySrc(
-      "https://open.spotify.com/embed/track/4s76r7AbquJcTccqJiqdVu?utm_source=generator"
-    );
-  };
-
-  const tocarAPartirDoTempo = () => {
-    setSpotifySrc(
-      "https://open.spotify.com/embed/track/4s76r7AbquJcTccqJiqdVu?utm_source=generator&t=183"
-    );
-  };
-
   return (
     <div className="tempo-container">
       <div className="carousel-container">
@@ -111,7 +99,7 @@ const ContagemTempo = () => {
       </div>
 
       <div className="spotify-container">
-        <h2 className="contagem-titulo">Mas essa é mais bonitinha🤍</h2>
+        <h2 className="contagem-titulo">Nossa Musica🤍</h2>
         <iframe
           className="spotify-frame"
           title="Spotify Music"
@@ -122,18 +110,6 @@ const ContagemTempo = () => {
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           allowFullScreen
         ></iframe>
-        <div style={{ marginTop: "10px" }}>
-          <button
-            className="btn-iniciar-musica"
-            onClick={tocarDoInicio}
-            style={{ marginRight: "10px" }}
-          >
-            Tocar do Início
-          </button>
-          <button className="btn-iniciar-musica" onClick={tocarAPartirDoTempo}>
-            Tocar a partir de 3:03
-          </button>
-        </div>
       </div>
 
       <div className="tempo-info">
