@@ -1,6 +1,3 @@
-# 💖 Nossa História Juntos
-
-Um site feito com amor para contar nossa história de namoro, com uma contagem de tempo desde o primeiro dia, um carrossel de fotos e uma mensagem romântica ao final. Totalmente responsivo e com visual encantador.
 
 ## ✨ Funcionalidades
 
@@ -77,4 +74,4 @@ Este projeto foi feito com carinho 💗 e é de uso pessoal. Fique à vontade pa
 
 ---
 
-Feito com 💘 por Lucas Nicolas
+Feito com 💘 por Miguel
